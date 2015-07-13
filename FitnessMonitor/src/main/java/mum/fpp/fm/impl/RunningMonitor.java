@@ -33,13 +33,5 @@ public class RunningMonitor extends AbstractFitnessMonitor {
 			setCalorieByHour(200);
 	}
 	
-//	 public static void main(String[] args) {
-//	 RunningMonitor rm = new RunningMonitor();
-//	 rm.setHours(3);
-//	 rm.setDistance(15);
-//	 rm.setWeight(90);
-//	 rm.computeCalorie();
-//	 rm.submitRecord(rm.getRecord());
-//	 }
 
 }

@@ -94,12 +94,6 @@ public class RecordDAO {
 	public void readRecordsByWeek() {
 
 	}
-	
-//	public static void main(String[] args) {
-//		RecordDAO dao = new RecordDAO();
-//		for(FitnessRecord f :dao.readRecordsByDate()){
-//			System.out.println(f);
-//		}
-//	}
+
 
 }
