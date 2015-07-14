@@ -13,7 +13,8 @@ public class FMDataSource {
 		Connection conn = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost/test", "root", "");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost/fitness_monitor", "root", "");
+			System.out.println("Conected!");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} catch (ClassNotFoundException e) {

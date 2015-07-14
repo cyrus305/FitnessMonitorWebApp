@@ -27,10 +27,6 @@ public abstract class AbstractFitnessMonitor implements FitnessMonitor {
 		this.calorieByHour = calorieByHour;
 	}
 	
-	protected void setWeight(double weight){
-		record.setWeight(weight);
-	}
-	
 	protected void setHours(double hours){
 		record.setHours(hours);
 	}

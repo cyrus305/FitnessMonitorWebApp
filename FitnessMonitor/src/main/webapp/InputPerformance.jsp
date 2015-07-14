@@ -27,7 +27,7 @@
 			</div>
 			<div align="right">
 				<h3>
-					Member ID:<%=memberID%>
+					Member ID: <%=memberID%>
 				</h3>
 			</div>
 

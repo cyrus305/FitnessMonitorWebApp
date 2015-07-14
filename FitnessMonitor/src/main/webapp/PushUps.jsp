@@ -6,8 +6,21 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>PushUps</title>
 </head>
-<body>
-<h3>this is pop up</h3>
+<body bgcolor="#BCBCB3">
 
+	<form>
+
+		Hours: <input type="text" name="hours"> <br>
+		<br> PushUp Count: <input type="text" name="noOfTimes"><br>
+		<br> <input type="submit" value="Submit"> <input
+			type="submit" value="Reset">
+
+	</form>
+
+	<%
+		String hours = request.getParameter("hours");
+		String noOfTimes = request.getParameter("noOfTimes");
+	%>
+	<BR>
 </body>
 </html>

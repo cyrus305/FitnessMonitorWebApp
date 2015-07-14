@@ -4,8 +4,6 @@ import java.time.LocalDate;
 
 public class FitnessRecord {
 	
-	
-	private double weight;
 	private int calories;
 	private LocalDate exdate;
 	private double hours;
@@ -23,12 +21,6 @@ public class FitnessRecord {
 		this.hours = hours;
 	}
 
-	public double getWeight() {
-		return weight;
-	}
-	public void setWeight(double weight) {
-		this.weight = weight;
-	}
 	public int getCalories() {
 		return calories;
 	}
@@ -36,10 +28,10 @@ public class FitnessRecord {
 		this.calories = calories;
 	}
 	
-	@Override
-	public String toString() {
-		return "FitnessRecord [weight=" + weight + ", calories=" + calories + ", exdate=" + exdate + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "FitnessRecord [ calories=" + calories + ", exdate=" + exdate + "]";
+//	}
 	
 	
 	

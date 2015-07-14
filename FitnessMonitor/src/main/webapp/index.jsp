@@ -1,3 +1,4 @@
+
 <html>
 <body style="width: 60%; height: 100%;">
 	<div
@@ -7,9 +8,13 @@
 			<form action="MonitorNow.jsp" method="get">
 				Name: <input type="text" name="firstName"> <input
 					type="text" name="lastName"><br> <br> Member Id:
-				<input type="text" name="memberId"><br> <br> Sex:
-				<input type="radio" checked name="sex" value="male">Male <input
-					type="radio" name="sex" value="female">Female
+				<input type="text" name="memberId"> <span
+					style="display: inline-block; width: 75;"></span> Age: <input
+					type="text" name="age"> <br>
+				<br> Sex: <input type="radio" checked name="sex" value="male">Male
+				<input type="radio" name="sex" value="female">Female <span
+					style="display: inline-block; width: 150;"></span> Weight: <input
+					type="text" name="weight">
 				<p>
 				<h2>Please select your choice</h2>
 				<h3>
@@ -20,7 +25,9 @@
 				</h3>
 				<input type="submit" value="Proceed">
 			</form>
-		</div>
+
+   
+	</div>
 	</div>
 </body>
 </html>
